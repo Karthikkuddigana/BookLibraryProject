@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#MainContainer{
+    height: 90vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    border: 2px solid black;
+}
