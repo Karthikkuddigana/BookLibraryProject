@@ -10,4 +10,30 @@
     margin-right: auto;
     margin-top: 2.5%;
     border: 2px solid black;
+    padding: 2%;
+}
+#AddButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-bottom: 2px solid black;
+}
+#Add{
+    /* text-align: center; */
+    border: 2px solid black;
+    padding: 1% 2% 1% 2%;
+}
+#GridContent{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-template-rows: 30% 30% 30%; */
+    column-gap: 5%;
+    row-gap: 5%;
+}
+.grid-item{
+    border: 2px solid black;
+    /* text-align: center; */
+    padding: 10%;
 }
